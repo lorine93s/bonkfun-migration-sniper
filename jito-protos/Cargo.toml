@@ -1,0 +1,18 @@
+[package]
+name = "jito-protos"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+bincode.workspace = true
+bytes.workspace = true
+prost.workspace = true
+prost-types.workspace = true
+solana-perf.workspace = true
+solana-sdk.workspace = true
+solana-packet.workspace = true
+tonic.workspace = true
+
+[build-dependencies]
+tonic-build.workspace = true

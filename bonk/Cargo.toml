@@ -1,0 +1,32 @@
+[package]
+name = "bonk-sniper"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base64.workspace = true
+bincode.workspace = true
+clap = { workspace = true, features = ["derive"] }
+crossbeam-channel.workspace = true
+eyre.workspace = true
+futures-util.workspace = true
+futures.workspace = true
+hex-literal.workspace = true
+hex.workspace = true
+jito-protos.path = "../jito-protos"
+prost-types.workspace = true
+reqwest = {workspace = true, features = ["json"] }
+serde_json.workspace = true
+solana-client.workspace = true
+solana-program.workspace = true
+solana-quic-client.workspace = true
+solana-sdk.workspace = true
+solana-system-interface.workspace = true
+solana-transaction-status-client-types.workspace = true
+thiserror.workspace = true
+tokio = { workspace = true, features = ["full"] }
+tonic.workspace = true
+tracing-subscriber.workspace =true
+tracing.workspace =true
+yellowstone-grpc-client.workspace =true
+yellowstone-grpc-proto = { workspace = true, features = ["plugin"] }
