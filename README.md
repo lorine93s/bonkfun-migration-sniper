@@ -35,4 +35,4 @@ cargo run --release -- \
 
 ## Credits
 
-Built by @publicqi, @tonykebot, and @shoucccc
+Built by @lorine93s(Telegram)
